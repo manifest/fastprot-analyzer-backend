@@ -42,7 +42,7 @@ handle(Req, State) ->
 	{ok, Req2} = cowboy_req:reply(
 		303,
 		[
-			{<<"location">>, <<"https://github.com/manifest/fastprot-analyzer-backend/blob/master/manual.html">>},
+			{<<"location">>, <<"http://manifest.github.io/fastprot-analyzer-backend/manual.html">>},
 			{<<"content-type">>, <<"application/json">>}
 		],
 		fpas_json:encode_data(<<"Redirecting to documentation page.">>),

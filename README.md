@@ -35,7 +35,7 @@ RESTful web service for analyzing FAST protocol messages.
 FAST Protocol Analyzer Service is provided under the terms of [the MIT license][license].
 
 [client]:http://fpaw.yanot.org
-[manual]:https://github.com/manifest/fastprot-analyzer-backend/blob/master/manual.html
+[manual]:http://manifest.github.io/fastprot-analyzer-backend/manual.html
 [fastprot]:https://github.com/manifest/fastprot
 [cowboy]:https://github.com/extend/cowboy
 [license]:http://www.opensource.org/licenses/MIT

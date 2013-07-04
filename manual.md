@@ -19,7 +19,7 @@ If you open those URLs in the browser, you will be redirected to documentation p
 	> GET /api
 	
 	< HTTP/1.1 303 See Other
-	< location: http://yanot.org/public/products/fpas/manual.html
+	< location: http://manifest.github.io/fastprot-analyzer-backend/manual.html
 
 ## API Reference
 
