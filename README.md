@@ -4,13 +4,18 @@ RESTful web service for analyzing FAST protocol messages.
 
 ### On the Web
 - [REST API Manual][manual]
-- [Web Client][client]
+- [Web Client][fpaw]
 
 ### Depends on
 - [fastprot][fastprot] - FAST protocol message decoder for erlang
 - [cowboy][cowboy] - small, fast, modular HTTP server
 
-### Getting started
+### Get the Sources
+
+	$ git clone https://github.com/manifest/fastprot-analyzer-backend.git
+	$ cd fastprot-analyzer-backend
+
+### Getting Started
 
 1. Build and install [fastprot][fastprot] dependencies (native libraries). Read more on his page.
 
@@ -34,7 +39,7 @@ RESTful web service for analyzing FAST protocol messages.
 
 FAST Protocol Analyzer Service is provided under the terms of [the MIT license][license].
 
-[client]:http://fpaw.yanot.org
+[fpaw]:https://github.com/manifest/fastprot-analyzer-frontend
 [manual]:http://manifest.github.io/fastprot-analyzer-backend/manual.html
 [fastprot]:https://github.com/manifest/fastprot
 [cowboy]:https://github.com/extend/cowboy
