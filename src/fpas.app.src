@@ -1,0 +1,12 @@
+{application, fpas,
+ [
+  {description, "FAST protocol parser/analyzer service"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { fpas_app, []}},
+  {env, []}
+ ]}.
